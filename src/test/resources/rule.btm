@@ -1,0 +1,8 @@
+RULE change message when it's greeting
+INTERFACE ^GreetingsProcessor
+METHOD process
+AT ENTRY
+IF true
+DO
+  $1 = "god bless you"
+ENDRULE
